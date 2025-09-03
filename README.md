@@ -2,7 +2,7 @@
 
 **Apple Music (Windows) → Discord Rich Presence**  
 GSMTC から再生中の曲を取り出し、Vencord 上で RP に反映します。  
-作者: **MoZ3ro** (https://mozero.net/)
+作った人: **MoZ3ro** (https://mozero.net/)
 
 ---
 
@@ -75,11 +75,19 @@ Start-Process "$env:LOCALAPPDATA\Discord\Update.exe" -ArgumentList '--processSta
 - ブリッジ EXE を直接実行して標準出力が流れるか確認
 "%LOCALAPPDATA%\MoZ3ro.AppleMusicBridgeWin\AppleMusicBridgeWin.exe"
 
-##アップデート(するかわかんねえけど)
+##　アップデート(するかわかんねえけど)
 
 アセット名は固定にするので。もう一度ワンライナーを実行すれば、EXE と Vencord dist が上書き更新されますと。
 
 ```powershell
 iwr -UseBasicParsing https://raw.githubusercontent.com/momotaro-z3ro/AppleMusicBridgeWin/main/scripts/install.ps1 | iex
 ```
+
+
+## 免責・非公式・お気持ち表明
+
+- 本プロジェクトは **非公式** です。Apple Inc.／Discord Inc.／Vencord プロジェクト／Microsoft とは一切関係ありません。
+- 本ツールは Discord クライアントの **改変（Vencord）** を前提としています。ご利用は **自己責任** で行ってください。ご利用により発生したいかなる損害（いままでこれ系でDisocordにVANされた前例がないとはいえ）についても、あっしは責任を一切合切負いません。
+- 本リポジトリは **MIT License** に基づき無保証（AS IS）で提供されます。
+- Apple／iTunes／Apple Music／Discord はそれぞれの **商標** です。ここでの使用は識別のみを目的とします。
 
