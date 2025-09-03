@@ -2,7 +2,7 @@
 
 **Apple Music (Windows) → Discord Rich Presence**  
 GSMTC から再生中の曲を取り出し、Vencord 上で RP に反映します。  
-作った人: **MoZ3ro** (https://mozero.net/)
+作った人: [**MoZ3ro**] (https://mozero.net/)
 
 ---
 
