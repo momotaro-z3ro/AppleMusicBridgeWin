@@ -4,6 +4,10 @@
 GSMTC から再生中の曲を取り出し、Vencord 上で RP に反映します。  
 作った人: [MoZ3ro](https://mozero.net/)
 
+<p align="center">
+  <img src="assets/スクリーンショット 2025-09-03 122043.png" width="300" alt="Apple Music Rich Presence の表示例">
+</p>
+
 ---
 
 ## クイックインストール（1 行）
